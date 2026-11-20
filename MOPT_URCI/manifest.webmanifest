@@ -1,0 +1,43 @@
+{
+  "name": "MOPT URCI — Inspecciones viales",
+  "short_name": "MOPT URCI",
+  "description": "Catálogo vial, campañas e inspecciones de caminos no pavimentados con guardado local y uso sin conexión.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f9",
+  "theme_color": "#112d40",
+  "lang": "es-CR",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "id": "./index.html",
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
+  "prefer_related_applications": false
+}

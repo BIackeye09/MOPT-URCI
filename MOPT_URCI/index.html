@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-CR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#102b41">
+  <meta name="description" content="Inspecciones URCI, seguridad vial y evaluación de la eficiencia de proyectos, con descarga PDF o Excel.">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./sencilla.css">
+  <title>MOPT URCI · Inspecciones de caminos</title>
+  <script defer src="./vendor/pdf-lib.min.js"></script>
+  <script defer src="./vendor/fontkit.umd.min.js"></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Ir al contenido</a>
+  <header class="encabezado-app">
+    <div class="barra-interior">
+      <div class="marca"><img src="./icon.svg" width="44" height="44" alt=""><div><strong>MOPT URCI</strong><span>Inspecciones de caminos</span></div></div>
+      <span id="indicador-guardado" class="indicador" role="status">Guardado en esta computadora</span>
+    </div>
+  </header>
+  <div class="barra-trabajo">
+    <div class="barra-interior">
+      <nav class="modulos-app" aria-label="Módulos de evaluación">
+        <button type="button" class="activo" data-modulo="eficacia" data-nav="nueva" aria-current="page"><span>01</span> Eficacia</button>
+        <button type="button" data-modulo="eficiencia" data-nav="eficiencia"><span>02</span> Eficiencia</button>
+      </nav>
+      <nav aria-label="Menú de Eficacia" class="menu-principal">
+        <button type="button" data-nav="nueva" class="activo" aria-current="page">Nuevo formulario</button>
+        <button type="button" data-nav="inspecciones">Mis formularios</button>
+        <button type="button" data-nav="resumen">Resúmenes</button>
+      </nav>
+    </div>
+  </div>
+  <main id="contenido" class="contenido" tabindex="-1"><p class="cargando" role="status">Abriendo tus inspecciones…</p></main>
+  <footer class="pie-app">
+    <div class="pwa-state"><strong id="pwa-estado">Disponible como aplicación</strong><small id="pwa-detalle" role="status">Preparando el uso sin conexión…</small></div>
+    <div class="pwa-actions"><span id="pwa-actualizacion" role="status" hidden></span><button type="button" id="pwa-actualizar" class="boton secundario" hidden>Actualizar aplicación</button><button type="button" id="pwa-instalar" class="boton secundario">Cómo instalar</button></div>
+    <a href="./prueba-mapa.html" data-prueba-mapa aria-haspopup="dialog">Prueba de mapa</a>
+    <span class="version">v0.34 · Datos locales</span>
+  </footer>
+  <dialog id="pwa-ayuda" class="dialogo" aria-labelledby="pwa-ayuda-titulo">
+    <div class="dialogo-cabecera"><h2 id="pwa-ayuda-titulo">Instalar MOPT URCI</h2><button type="button" id="pwa-ayuda-cerrar" class="boton secundario">Cerrar</button></div>
+    <div class="dialogo-contenido"><p>Podés usar la aplicación en una pestaña o instalarla con su propia ventana.</p><ol><li>Abrí esta misma dirección en Chrome o Edge.</li><li>Elegí <strong>Instalar aplicación</strong> cuando aparezca o usá la opción de instalar del menú del navegador.</li><li>Esperá el estado <strong>Lista para usar sin conexión</strong>.</li></ol><p>En iPhone o iPad: Safari → Compartir → Agregar a inicio.</p><p>La aplicación instalada y la pestaña comparten tus inspecciones al usar la misma dirección y perfil. Editá una ficha en una sola ventana a la vez.</p></div>
+  </dialog>
+  <dialog id="prueba-mapa-dialogo" class="dialogo dialogo-mapa" aria-labelledby="prueba-mapa-titulo">
+    <form method="dialog" class="dialogo-cabecera">
+      <h2 id="prueba-mapa-titulo">Mapa de Costa Rica</h2>
+      <button type="submit" class="boton secundario" autofocus>Cerrar mapa</button>
+    </form>
+    <iframe title="Mapa vial de Costa Rica"></iframe>
+  </dialog>
+  <dialog id="confirmar-accion" class="dialogo" aria-labelledby="confirmar-titulo"><form method="dialog"><div class="dialogo-cabecera"><h2 id="confirmar-titulo"></h2></div><div class="dialogo-contenido"><p></p><div class="confirmar-botones"><button type="submit" value="cancelar" class="boton secundario" autofocus>Cancelar</button><button type="submit" value="aceptar" class="boton peligro">Mover a Papelera</button></div></div></form></dialog>
+  <div id="avisos" class="avisos" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

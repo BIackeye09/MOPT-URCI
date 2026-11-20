@@ -1,0 +1,47 @@
+{
+  "fecha_revision": "2026-11-09",
+  "referencia_formulario": {
+    "archivo": "Formulario_Limpio.xlsx",
+    "sha256": "c725fac0873fcc11cff0146e353848ae1357fa9a5804d7d2f0a318817e46f95b",
+    "hoja": "Hoja1",
+    "puntos": {
+      "A49": "15. VALOR DEDUCIBLE TOTAL",
+      "L49": "16. VALOR q",
+      "P49": "17. URCI",
+      "X49": "18. CALIFICACIÓN"
+    },
+    "formula_q": "COUNTIF(P28:S48,\">5\")",
+    "calificacion_en_fuente": "X50 hace referencia externa a [1]Listas!F3:G9; la aplicación utiliza la tabla del indicador de eficacia aportado, sin depender de ese enlace externo."
+  },
+  "densidad": {
+    "manual": "Department of the Army, TM 5-626, Unsurfaced Road Maintenance Management, 16 January 1995",
+    "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_626.pdf",
+    "apartado": "3-4.b(1), ecuación 3-1; apéndice C",
+    "sha256": "e909a879418229658542edab2dc5ef3501857030d39f072510d318bbbd364b7e",
+    "formula": "cantidad del deterioro en la severidad / área de muestra * 100",
+    "q": "3-4.b(3): valores deducibles individuales > 5.0, sin redondear",
+    "polvo": "Figura C-4: Baja 2, Media 4, Alta 15; no requiere densidad"
+  },
+  "calificacion": {
+    "archivo": "01 RVNL - Indicador de Eficacia - VF.xlsx",
+    "rango": "Listas!F3:G9",
+    "limites_inferiores": [
+      85,
+      70,
+      55,
+      40,
+      25,
+      10,
+      0
+    ],
+    "nombres": [
+      "Excelente",
+      "Muy Bueno",
+      "Bueno",
+      "Regular",
+      "Pobre",
+      "Muy Pobre",
+      "Fallado"
+    ]
+  }
+}

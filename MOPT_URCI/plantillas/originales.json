@@ -1,0 +1,14 @@
+{
+  "Formulario_Limpio.xlsx": {
+    "archivoAportado": "Formulario_Limpio.xlsx",
+    "sha256": "1951a2dae0e077d83a25dac29c9a003564cda2db8516edb83af01228defe4747"
+  },
+  "01_RVNL_Eficacia_VF.xlsx": {
+    "archivoAportado": "01 RVNL - Indicador de Eficacia - VF.xlsx",
+    "sha256": "2c40d874fd5bc3a6f50f6ec8a7442685fc2cecad2b16e5156f10c7bc50ca0b44"
+  },
+  "02_RVNL_Eficiencia_VF.xlsx": {
+    "archivoAportado": "02 RVNL - Indicador de Eficiencia - VF.xlsx",
+    "sha256": "2025778446b6643fd71f9bd7d76ddff68611a676391b0b4cb23222f288f08e37"
+  }
+}

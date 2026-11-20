@@ -1,0 +1,37 @@
+{
+  "fuente": "Department of the Army, TM 5-626, 16 January 1995",
+  "archivos": [
+    {
+      "nombre": "tm5_626.pdf",
+      "sha256": "e909a879418229658542edab2dc5ef3501857030d39f072510d318bbbd364b7e"
+    },
+    {
+      "nombre": "curvas/tm5-626-81.png",
+      "sha256": "2ac8d1f3ff4cba6d98edfb97b56ed2cf67955f1cfa9ff6c658a5ef70a41e712b"
+    },
+    {
+      "nombre": "curvas/tm5-626-82.png",
+      "sha256": "f69327edaf7ed31528a3b7c1f37d362851865d5e9c381ca4e918776844a46104"
+    },
+    {
+      "nombre": "curvas/tm5-626-83.png",
+      "sha256": "4b6f35f8c548062fa7ad19c6e563a270c698a79798554c6d806af7dc5f4b7403"
+    },
+    {
+      "nombre": "curvas/tm5-626-85.png",
+      "sha256": "fabb89d8074398357f60af48c84a1dff6df0afe90f4b84908b86d3719820e7a8"
+    },
+    {
+      "nombre": "curvas/tm5-626-86.png",
+      "sha256": "40447dc26171d6e87ca89daade490e2a51e3f0d85022a19e08e8e891c6cd6cd8"
+    },
+    {
+      "nombre": "curvas/tm5-626-87.png",
+      "sha256": "f58fc54423a4cffed027e02d721d84d873276e1c2c7881ce258b77588d83b117"
+    },
+    {
+      "nombre": "curvas/tm5-626-urci.png",
+      "sha256": "2b3796e2c11bc46038ee989dacc70ca23fe570f14053cd77c46f5f9715f34f20"
+    }
+  ]
+}

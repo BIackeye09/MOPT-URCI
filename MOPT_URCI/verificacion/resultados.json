@@ -1,0 +1,474 @@
+{
+  "version": "tm5-626-raster-metrico-0.6",
+  "fecha": "2026-11-08",
+  "controles": [
+    {
+      "referencia": "TM 5-626, figura 3-3 y párrafo 3-4",
+      "manual": {
+        "vdt": 64,
+        "q": 3,
+        "urci": 59
+      },
+      "calculado": {
+        "version": "tm5-626-raster-metrico-0.6",
+        "aproximado": true,
+        "vdt": 65.1124901704111,
+        "q": 3,
+        "urci": 59,
+        "urciExacto": 58.91356548426932,
+        "calificacion": "Bueno",
+        "motivos": [],
+        "qInclusivo": 3,
+        "estado": "calculado",
+        "filas": [
+          {
+            "codigo": "81",
+            "severidad": "B",
+            "densidad": 18.219832735961766,
+            "deduccion": 12.98663158924535,
+            "motivo": ""
+          },
+          {
+            "codigo": "81",
+            "severidad": "M",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          },
+          {
+            "codigo": "81",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          },
+          {
+            "codigo": "82",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "82",
+            "severidad": "M",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "82",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "83",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          },
+          {
+            "codigo": "83",
+            "severidad": "M",
+            "densidad": 50,
+            "deduccion": 30.31491,
+            "motivo": ""
+          },
+          {
+            "codigo": "83",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          },
+          {
+            "codigo": "84",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "seleccionado": false,
+            "motivo": ""
+          },
+          {
+            "codigo": "84",
+            "severidad": "M",
+            "densidad": null,
+            "deduccion": 4,
+            "seleccionado": true,
+            "motivo": ""
+          },
+          {
+            "codigo": "84",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "seleccionado": false,
+            "motivo": ""
+          },
+          {
+            "codigo": "85",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "85",
+            "severidad": "M",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "85",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "86",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "86",
+            "severidad": "M",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "86",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "87",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          },
+          {
+            "codigo": "87",
+            "severidad": "M",
+            "densidad": 29.151732377538824,
+            "deduccion": 17.81094858116576,
+            "motivo": ""
+          },
+          {
+            "codigo": "87",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          }
+        ]
+      }
+    },
+    {
+      "referencia": "TM 5-626, figura 3-2, métrica",
+      "manual": {
+        "vdt": 132,
+        "q": 4,
+        "urci": 25
+      },
+      "calculado": {
+        "version": "tm5-626-raster-metrico-0.6",
+        "aproximado": true,
+        "vdt": 133.20663419810248,
+        "q": 4,
+        "urci": 25,
+        "urciExacto": 24.8315,
+        "calificacion": "Malo",
+        "motivos": [],
+        "qInclusivo": 4,
+        "estado": "calculado",
+        "filas": [
+          {
+            "codigo": "81",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          },
+          {
+            "codigo": "81",
+            "severidad": "M",
+            "densidad": 23.46153846153846,
+            "deduccion": 19.628386075186782,
+            "motivo": ""
+          },
+          {
+            "codigo": "81",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          },
+          {
+            "codigo": "82",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          },
+          {
+            "codigo": "82",
+            "severidad": "M",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          },
+          {
+            "codigo": "82",
+            "severidad": "A",
+            "densidad": 46.92307692307692,
+            "deduccion": 36.29604089236766,
+            "motivo": ""
+          },
+          {
+            "codigo": "83",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "83",
+            "severidad": "M",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "83",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "84",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 2,
+            "seleccionado": true,
+            "motivo": ""
+          },
+          {
+            "codigo": "84",
+            "severidad": "M",
+            "densidad": null,
+            "deduccion": 0,
+            "seleccionado": false,
+            "motivo": ""
+          },
+          {
+            "codigo": "84",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "seleccionado": false,
+            "motivo": ""
+          },
+          {
+            "codigo": "85",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "85",
+            "severidad": "M",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "85",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "86",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "vacio": true
+          },
+          {
+            "codigo": "86",
+            "severidad": "M",
+            "densidad": 35,
+            "deduccion": 30.396293503290384,
+            "motivo": ""
+          },
+          {
+            "codigo": "86",
+            "severidad": "A",
+            "densidad": 65,
+            "deduccion": 44.88591372725765,
+            "motivo": ""
+          },
+          {
+            "codigo": "87",
+            "severidad": "B",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "87",
+            "severidad": "M",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          },
+          {
+            "codigo": "87",
+            "severidad": "A",
+            "densidad": null,
+            "deduccion": 0,
+            "motivo": "",
+            "sinDeterioro": true
+          }
+        ]
+      }
+    }
+  ],
+  "curva_urci_aislada": [
+    {
+      "manual": 59,
+      "version": "tm5-626-raster-metrico-0.6",
+      "aproximado": true,
+      "vdt": 64,
+      "q": 3,
+      "urci": 59,
+      "urciExacto": 59.49953249663353,
+      "calificacion": "Bueno",
+      "motivos": [],
+      "qInclusivo": 3,
+      "estado": "calculado"
+    },
+    {
+      "manual": 25,
+      "version": "tm5-626-raster-metrico-0.6",
+      "aproximado": true,
+      "vdt": 132,
+      "q": 4,
+      "urci": 25,
+      "urciExacto": 24.835930395582327,
+      "calificacion": "Malo",
+      "motivos": [],
+      "qInclusivo": 4,
+      "estado": "calculado"
+    }
+  ],
+  "deducciones": [
+    {
+      "codigo": "81",
+      "severidad": "B",
+      "densidad": 18.219832735961766,
+      "manual": 13,
+      "calculado": 12.98663158924535
+    },
+    {
+      "codigo": "83",
+      "severidad": "M",
+      "densidad": 50,
+      "manual": 29,
+      "calculado": 30.31491
+    },
+    {
+      "codigo": "87",
+      "severidad": "M",
+      "densidad": 29.151732377538824,
+      "manual": 18,
+      "calculado": 17.81094858116576
+    },
+    {
+      "codigo": "81",
+      "severidad": "M",
+      "densidad": 23.46153846153846,
+      "manual": 19,
+      "calculado": 19.628386075186782
+    },
+    {
+      "codigo": "82",
+      "severidad": "A",
+      "densidad": 46.92307692307692,
+      "manual": 36,
+      "calculado": 36.29604089236766
+    },
+    {
+      "codigo": "86",
+      "severidad": "M",
+      "densidad": 35,
+      "manual": 31,
+      "calculado": 30.396293503290384
+    },
+    {
+      "codigo": "86",
+      "severidad": "A",
+      "densidad": 65,
+      "manual": 44,
+      "calculado": 44.88591372725765
+    }
+  ],
+  "pruebas_automaticas": {
+    "total": 15,
+    "correctas": 15
+  },
+  "pruebas_navegador": [
+    "Creación de ficha por interfaz",
+    "Resultado aproximado 59",
+    "Verificación de captura",
+    "Resultado retirado al poner área cero",
+    "Guardar, salir y reabrir",
+    "Promedio de sección",
+    "Gráfica y punto URCI",
+    "Densidad fuera de rango retira las guías y el índice",
+    "Recarga con servidor detenido",
+    "Edición y recálculo con servidor detenido"
+  ]
+}

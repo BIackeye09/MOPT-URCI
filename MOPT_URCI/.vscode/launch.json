@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "URCI: servidor y navegador",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/servir.dart",
+      "cwd": "${workspaceFolder}",
+      "console": "debugConsole",
+      "templateFor": "",
+      "args": [
+        "--puerto",
+        "8090"
+      ]
+    },
+    {
+      "name": "URCI: Dart + Chrome (JavaScript)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/servir.dart",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--sin-abrir",
+        "--puerto",
+        "8090"
+      ],
+      "console": "debugConsole",
+      "serverReadyAction": {
+        "pattern": "URCI listo en (http://localhost:[0-9]+/)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome",
+        "webRoot": "${workspaceFolder}",
+        "killOnServerStop": true
+      }
+    },
+    {
+      "name": "URCI: prueba de mapa en teléfono",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/servir.dart",
+      "cwd": "${workspaceFolder}",
+      "console": "debugConsole",
+      "args": [
+        "--prueba-movil"
+      ]
+    }
+  ]
+}

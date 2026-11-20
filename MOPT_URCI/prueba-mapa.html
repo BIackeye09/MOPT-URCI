@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es-CR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b41">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./sencilla.css">
+  <title>Mapa de Costa Rica · MOPT URCI</title>
+</head>
+<body class="pagina-prueba-mapa">
+  <header class="encabezado-app">
+    <div class="barra-interior">
+      <div class="marca">
+        <img src="./icon.svg" width="44" height="44" alt="">
+        <div><strong>MOPT URCI</strong><span>Inspecciones de caminos</span></div>
+      </div>
+    </div>
+  </header>
+  <main class="contenido mapa-contenido">
+    <div class="encabezado-pagina mapa-cabecera">
+      <div>
+        <h1>Mapa de Costa Rica</h1>
+        <p id="ayuda-prueba-mapa" class="ayuda">Arrastrá el mapa para moverte. Juntá o separá dos dedos en la pantalla o el touchpad, o usá + y −.</p>
+      </div>
+      <a class="boton secundario" id="volver-urci" href="./" hidden>Volver a URCI</a>
+    </div>
+    <section class="tarjeta mapa-panel" aria-label="Visor de OpenStreetMap">
+      <div class="mapa-herramientas">
+        <form id="buscar-lugar" class="mapa-busqueda" role="search" aria-label="Buscar un lugar de Costa Rica">
+          <label for="entrada-lugar">Buscar lugar</label>
+          <div class="mapa-busqueda-campo">
+            <input type="search" id="entrada-lugar" placeholder="Ejemplo: Chilamate" enterkeyhint="search" autocomplete="off" maxlength="120" required>
+            <button type="submit" class="boton secundario">Buscar</button>
+          </div>
+          <div id="panel-busqueda-mapa" class="mapa-busqueda-panel" hidden>
+            <p id="estado-busqueda-mapa" class="ayuda" role="status"></p>
+            <ul id="lugares-encontrados" class="mapa-busqueda-resultados" aria-label="Lugares encontrados"></ul>
+          </div>
+        </form>
+        <div class="botones controles-prueba-mapa">
+          <button type="button" class="boton secundario" id="acercar-mapa" aria-label="Acercar mapa">+</button>
+          <button type="button" class="boton secundario" id="alejar-mapa" aria-label="Alejar mapa">−</button>
+          <button type="button" class="boton secundario" id="centrar-mapa" aria-label="Centrar en Costa Rica">Centrar en Costa Rica</button>
+          <button type="button" class="boton" id="capturar-mapa" hidden disabled>Capturar para el croquis</button>
+        </div>
+      </div>
+      <div class="mapa-marco">
+        <div class="visor-prueba-mapa" tabindex="0" role="group" aria-label="Mapa vial de Costa Rica" aria-describedby="ayuda-prueba-mapa">
+          <div class="teselas-prueba-mapa" aria-hidden="true"></div>
+        </div>
+        <div class="mapa-estado">
+          <p id="estado-mapa" class="ayuda" role="status"></p>
+          <button type="button" class="boton secundario" id="reintentar-mapa" hidden>Reintentar</button>
+        </div>
+      </div>
+      <div class="pie-prueba-mapa">
+        <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors</a>
+        <a href="https://www.geonames.org/" target="_blank" rel="noopener">Lugares de GeoNames</a>
+        <a href="https://www.openstreetmap.org/#map=7/9.575/-84.26" target="_blank" rel="noopener">Abrir en OpenStreetMap</a>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="./prueba-mapa.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "mopt-urci",
+  "version": "0.34.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test verificacion/motor.test.mjs verificacion/catalogo.test.mjs verificacion/pwa.test.mjs verificacion/sencilla.test.mjs verificacion/previas.test.mjs verificacion/hoja-graficas.test.mjs verificacion/plantillas.test.mjs verificacion/formularios.test.mjs verificacion/eficiencia.test.mjs verificacion/seguridad-proporcional.test.mjs verificacion/revision.test.mjs verificacion/fechas-y-eficiencia.test.mjs verificacion/busqueda-mapa.test.mjs && npm run test:interfaz",
+    "test:interfaz": "node --experimental-vm-modules verificacion/eficiencia-interaccion.mjs"
+  }
+}

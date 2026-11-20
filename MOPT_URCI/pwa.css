@@ -1,0 +1,16 @@
+/* Instalación y estado disponibles en escritorio y móvil. */
+.pwa-bar{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:12px 35px;background:#edf6f5;border-bottom:1px solid #d3e7e5}
+.pwa-state{display:flex;align-items:center;gap:10px;min-width:0}
+.pwa-symbol{width:32px;height:32px;padding:6px;background:#112d40;border-radius:9px;flex-shrink:0}
+.pwa-state strong{display:block;font-size:12px;color:#174b54}
+.pwa-state small{display:block;font-size:11px;color:#53727a;margin-top:1px}
+.pwa-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.pwa-actions [hidden],.pwa-bar[hidden]{display:none}
+.pwa-update-note{font-size:11px;color:#476a72;max-width:220px}
+.pwa-help{max-width:530px;border:0;border-radius:16px;color:var(--ink);padding:0;box-shadow:0 25px 90px #112d403d}
+.pwa-help::backdrop{background:#112d4077}
+.pwa-help-body{padding:4px 24px 24px;line-height:1.65;font-size:14px}
+.pwa-help-body ol{padding-left:22px}.pwa-help-body li{margin-bottom:9px}.pwa-help-body p:last-child{margin-bottom:0}
+.pwa-help-body .notice{font-size:12px;margin:18px 0 0}
+@media(max-width:750px){.pwa-bar{padding:12px 15px;align-items:flex-start;flex-wrap:wrap;gap:9px}.pwa-state{flex:1;min-width:200px}.pwa-actions{justify-content:flex-start}.pwa-actions .btn{font-size:11px;min-height:34px}.pwa-update-note{max-width:none}.pwa-help{width:calc(100% - 30px)}.pwa-help-body{padding:0 18px 20px}}
+@media print{.pwa-bar,.pwa-help{display:none}}
