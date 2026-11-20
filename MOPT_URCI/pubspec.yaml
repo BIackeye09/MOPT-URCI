@@ -1,6 +1,0 @@
-name: mopt_urci
-description: Lanzador local de la PWA MOPT URCI.
-version: 0.34.0
-publish_to: none
-environment:
-  sdk: '>=3.0.0 <4.0.0'
