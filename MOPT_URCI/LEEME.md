@@ -1,4 +1,6 @@
-# MOPT URCI v0.34 — Búsqueda de lugares para el croquis
+# MOPT URCI v0.34.1 — Inspecciones de caminos
+
+El pie de la aplicación muestra el crédito fijo **Desarrollado por Santiago Granados Valerio**, sin campos ni ajustes para editarlo. Para recibir esta versión, abrí la aplicación con conexión y, cuando aparezca, pulsá **Actualizar aplicación**. Tus inspecciones se conservan.
 
 La barra superior permite elegir **01 Eficacia** o **02 Eficiencia**.
 En Eficacia, buscá el tramo para iniciar una inspección o abrí una existente
