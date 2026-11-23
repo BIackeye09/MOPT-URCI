@@ -160,6 +160,7 @@ button:disabled { opacity: .56; cursor: default; }
   font-size: .79rem;
 }
 .pwa-state { flex: 1 1 240px; }
+.pie-app .credito-autor { width: 100%; margin: 0; color: var(--azul-oscuro); font-size: .875rem; line-height: 1.5; overflow-wrap: anywhere; }
 .pwa-state small { display: block; margin-top: 3px; font-size: .78rem; }
 .pwa-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 
