@@ -4,7 +4,7 @@
  * sin conexión después de la primera visita exitosa por HTTPS o localhost.
  * No almacena fotografías ni envía información de inspecciones.
  */
-const CACHE_ACTUAL = 'mopt-urci-estaticos-v034r2';
+const CACHE_ACTUAL = 'mopt-urci-estaticos-v034r3';
 const ARCHIVOS = [
   "./",
   "./index.html",
