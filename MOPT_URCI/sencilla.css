@@ -75,7 +75,7 @@ button:disabled { opacity: .56; cursor: default; }
 .cargando { margin: 4rem auto; text-align: center; color: var(--atenuado); }
 
 /* Barra de la aplicación */
-.barra-interior, .contenido, .pie-app {
+.barra-interior, .credito-autor-contenedor, .contenido, .pie-app {
   width: min(100%, var(--ancho));
   margin-inline: auto;
   padding-inline: var(--margen);
@@ -148,6 +148,31 @@ button:disabled { opacity: .56; cursor: default; }
   border-color: var(--azul-borde);
   color: var(--azul-oscuro);
 }
+.credito-autor-contenedor { margin-top: 16px; }
+.credito-autor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 24px;
+  padding: 10px 16px;
+  border: 1px solid var(--azul-borde);
+  border-inline-start: 4px solid var(--azul);
+  border-radius: 10px;
+  background: var(--azul-suave);
+  color: var(--azul-oscuro);
+  font-size: .875rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.credito-autor p { margin: 0; min-width: 0; }
+.credito-autor-nombre span,
+.credito-autor-nombre strong,
+.credito-autor-destino span { display: block; }
+.credito-autor-nombre strong {
+  font-size: clamp(1.125rem, 2vw, 1.375rem);
+  line-height: 1.25;
+}
 .contenido { flex: 1 0 auto; padding-block: clamp(22px, 4vw, 38px) 50px; }
 .pie-app {
   display: flex;
@@ -160,7 +185,6 @@ button:disabled { opacity: .56; cursor: default; }
   font-size: .79rem;
 }
 .pwa-state { flex: 1 1 240px; }
-.pie-app .credito-autor { width: 100%; margin: 0; color: var(--azul-oscuro); font-size: .875rem; line-height: 1.5; overflow-wrap: anywhere; }
 .pwa-state small { display: block; margin-top: 3px; font-size: .78rem; }
 .pwa-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 
